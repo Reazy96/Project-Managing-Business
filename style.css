@@ -54,7 +54,7 @@ nav span {
 }
 
 .wrapper {
-  padding: 60px 4%;
+  padding: 60px 10%;
 }
 
 h2 {
@@ -502,6 +502,7 @@ h6 {
 .ceo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 30px;
 }
 
@@ -513,4 +514,101 @@ h6 {
 .right03 img:nth-of-type(2) {
   width: 145px;
   height: 27px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ceo h4 {
+  font-size: 2rem;
+}
+.ceo p {
+  font-size: 1.4rem;
+}
+
+.manage-content {
+  background-color: #05796b;
+  padding: 110px 220px 90px 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  border-radius: 10px;
+}
+.manage-content h6 {
+  color: white;
+  margin-bottom: 30px;
+}
+.manage-content .button {
+  font-size: clamp(1.75rem, -0.8755rem + 2.217vw, 2.5rem);
+}
+
+.manage-content img {
+  position: absolute;
+  top: 13%;
+  left: 15%;
+}
+
+.impressum {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1.2;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0.8;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0.8;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0.8;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0.8;
+}
+
+.socials-icon {
+  max-width: 50%;
+  margin-top: 25px;
+}
+.impressum a,
+.impressum p {
+  font-size: 1.4rem;
+}
+.impressum h4 {
+  font-size: 2rem;
+  margin-bottom: 13px;
+}
+
+footer hr {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
 }
